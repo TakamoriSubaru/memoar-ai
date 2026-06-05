@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🤖 AI Companion Chatbot (Prototype)
 
 AI Companion Chatbot adalah prototype aplikasi chatbot berbasis AI yang dirancang sebagai teman ngobrol hangat dan suportif, dengan personality seperti anak kecil yang penasaran dan senang mendengar cerita.
