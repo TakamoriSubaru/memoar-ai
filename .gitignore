@@ -1,8 +1,11 @@
 # Node dependencies
 node_modules/
+Backend/node_modules/
 
-# Environment variables (API key dll)
+# Environment variables
 .env
+.env.*
+Backend/.env
 
 # Logs
 npm-debug.log*
