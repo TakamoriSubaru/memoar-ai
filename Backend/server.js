@@ -31,8 +31,10 @@ app.use('/api/chat', chatRoute);
 //         require and destructure after app is already created; just use
 //         express.static directly.
 // FIX 3: path.join now works because `path` is correctly imported above.
-app.get('/', (req, res) => {
-  res.json({ status: 'ok', message: 'Memoar API is running' });
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // ── Global error handler ──────────────────────────────────────────────────────
