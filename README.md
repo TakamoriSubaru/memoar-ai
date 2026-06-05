@@ -163,4 +163,3 @@ Darryl Tan
 MIT License – bebas digunakan untuk belajar & pengembangan.
 =======
 # memoar-ai
->>>>>>> 177607c53b013c59376c45aa27898eac84c16222
